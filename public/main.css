@@ -1,5 +1,5 @@
 video {
-    transform: rotateY(180deg); 
+    transform: rotateY(180deg);
 }
 
 .select {
@@ -21,7 +21,30 @@ video {
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 10%);
+}
+.appname{
+  position: absolute;
+  top: 0%;
+  left: 30%;
+  color: blue;
+}
+.LC{
+  float: left;
+  position: relative;
+  left: 15%;
+  width: 40%;
+  top: -5%;
+}
+.RC{
+  float: right;
+  position: relative;
+  right: 15%;
+  top: -5%;
+}
+.embed-responsive{
+  border: 5px solid #1b3948;
+  height: 80%;
 }

@@ -7,7 +7,9 @@
     "start": "node server.js",
     "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
   },
-  "author": "Vinayak Sinha",
+  "engines": {
+    "node": "10.13.0"
+  },
   "dependencies": {
     "express": "^4.16.4",
     "simple-peer": "^9.2.1",
