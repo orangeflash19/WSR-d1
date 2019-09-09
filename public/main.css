@@ -25,10 +25,8 @@ video {
     left: 50%;
     transform: translate(-50%, 10%);
 }
-.appname{
-  position: absolute;
-  top: 0%;
-  left: 30%;
+h3{
+  /* left: 30%; */
   color: blue;
 }
 .LC{
@@ -48,3 +46,8 @@ video {
   border: 5px solid #1b3948;
   height: 80%;
 }
+@media (min-width:600px) {
+          h4{
+            display: none;
+          }
+        }
